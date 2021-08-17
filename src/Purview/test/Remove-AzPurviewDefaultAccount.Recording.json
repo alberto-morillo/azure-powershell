@@ -1,0 +1,42 @@
+{
+  "Remove-AzPurviewDefaultAccount+[NoContext]+Remove+$POST+https://management.azure.com/providers/Microsoft.Purview/removeDefaultAccount?scopeTenantId=54826b22-38d6-4fb2-bad9-b7b93a3e9c5a\u0026scopeType=Tenant\u0026api-version=2021-07-01+1": {
+    "Request": {
+      "Method": "POST",
+      "RequestUri": "https://management.azure.com/providers/Microsoft.Purview/removeDefaultAccount?scopeTenantId=54826b22-38d6-4fb2-bad9-b7b93a3e9c5a\u0026scopeType=Tenant\u0026api-version=2021-07-01",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "53" ],
+        "x-ms-client-request-id": [ "1c319293-d410-43dd-a3dd-0840d3bc28f5" ],
+        "CommandName": [ "Remove-AzPurviewDefaultAccount" ],
+        "FullCommandName": [ "Remove-AzPurviewDefaultAccount_Remove" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/Az4.0.0-preview" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "Server": [ "Kestrel" ],
+        "x-ms-ratelimit-remaining-tenant-writes": [ "1198" ],
+        "x-ms-request-id": [ "9bc1b665-7122-4b73-bc22-7b09092985ff" ],
+        "x-ms-correlation-request-id": [ "9bc1b665-7122-4b73-bc22-7b09092985ff" ],
+        "x-ms-routing-request-id": [ "SOUTHEASTASIA:20210816T074909Z:9bc1b665-7122-4b73-bc22-7b09092985ff" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "Date": [ "Mon, 16 Aug 2021 07:49:09 GMT" ]
+      },
+      "ContentHeaders": {
+        "Expires": [ "-1" ],
+        "Content-Length": [ "0" ]
+      },
+      "Content": null,
+      "isContentBase64": false
+    }
+  }
+}

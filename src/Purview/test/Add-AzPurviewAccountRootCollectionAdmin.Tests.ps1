@@ -5,7 +5,7 @@ if(($null -eq $TestName) -or ($TestName -contains 'Add-AzPurviewAccountRootColle
       $loadEnvPath = Join-Path $PSScriptRoot '..\loadEnv.ps1'
   }
   . ($loadEnvPath)
-  $TestRecordingFile = Join-Path $PSScriptRoot '{variantGroup.CmdletName}.Recording.json'
+  $TestRecordingFile = Join-Path $PSScriptRoot 'Add-AzPurviewAccountRootCollectionAdmin.Recording.json'
   $currentPath = $PSScriptRoot
   while(-not $mockingPath) {
       $mockingPath = Get-ChildItem -Path $currentPath -Recurse -Include 'HttpPipelineMocking.ps1' -File

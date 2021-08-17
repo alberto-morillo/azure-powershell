@@ -1,0 +1,38 @@
+{
+  "Test-AzPurviewAccountNameAvailability+[NoContext]+CheckExpanded+$POST+https://management.azure.com/subscriptions/0b1f6471-1bf0-4dda-aec3-cb9272f09590/providers/Microsoft.Purview/checkNameAvailability?api-version=2021-07-01+1": {
+    "Request": {
+      "Method": "POST",
+      "RequestUri": "https://management.azure.com/subscriptions/0b1f6471-1bf0-4dda-aec3-cb9272f09590/providers/Microsoft.Purview/checkNameAvailability?api-version=2021-07-01",
+      "Content": "{\r\n  \"name\": \"bez-test-pa\",\r\n  \"type\": \"Tenant\"\r\n}",
+      "isContentBase64": false,
+      "Headers": {
+      },
+      "ContentHeaders": {
+        "Content-Type": [ "application/json" ],
+        "Content-Length": [ "50" ]
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "11958" ],
+        "Server": [ "Kestrel" ],
+        "x-ms-request-id": [ "d89bde96-ad23-4f4c-8058-90ae8b513058" ],
+        "x-ms-correlation-request-id": [ "d89bde96-ad23-4f4c-8058-90ae8b513058" ],
+        "x-ms-routing-request-id": [ "SOUTHEASTASIA:20210816T074911Z:d89bde96-ad23-4f4c-8058-90ae8b513058" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "Date": [ "Mon, 16 Aug 2021 07:49:10 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "112" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"nameAvailable\":false,\"reason\":\"Invalid\",\"message\":\"The name bez-test-pa is invalid, please use another name.\"}",
+      "isContentBase64": false
+    }
+  }
+}
