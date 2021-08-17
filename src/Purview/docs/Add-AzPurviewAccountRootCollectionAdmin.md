@@ -14,14 +14,13 @@ Add the administrator for root collection associated with this account.
 
 ### AddExpanded (Default)
 ```
-Add-AzPurviewAccountRootCollectionAdmin -AccountName <String> -ResourceGroupName <String>
- [-SubscriptionId <String>] [-ObjectId <String>] [-DefaultProfile <PSObject>] [-PassThru] [-Confirm] [-WhatIf]
- [<CommonParameters>]
+Add-AzPurviewAccountRootCollectionAdmin -AccountName <String> -ResourceGroupName <String> -ObjectId <String>
+ [-SubscriptionId <String>] [-DefaultProfile <PSObject>] [-PassThru] [-Confirm] [-WhatIf] [<CommonParameters>]
 ```
 
 ### AddViaIdentityExpanded
 ```
-Add-AzPurviewAccountRootCollectionAdmin -InputObject <IPurviewIdentity> [-ObjectId <String>]
+Add-AzPurviewAccountRootCollectionAdmin -InputObject <IPurviewIdentity> -ObjectId <String>
  [-DefaultProfile <PSObject>] [-PassThru] [-Confirm] [-WhatIf] [<CommonParameters>]
 ```
 
@@ -104,7 +103,7 @@ Type: System.String
 Parameter Sets: (All)
 Aliases:
 
-Required: False
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: False
